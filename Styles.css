@@ -32,7 +32,7 @@ header h1{
     border-radius: 10px;
     cursor : pointer;
 }
-.buttons:hover{
+.button:hover{
     color: white;
     background-color: darkblue;
 }
@@ -51,10 +51,10 @@ section{
 .submit{
     height:40px;
     width:140px;
-    border:none;
+    border:1px solid black;
     border-radius: 10px;
     cursor : pointer;
-    background-color:darkgray;
+    background-color: #73bbf7;
 }
 .submit:hover{
     background-color: rgb(50, 216, 50);
@@ -70,11 +70,13 @@ input{
     right: 10px;
     height: 70px;
     width: 70px;
-    border: none;
+    border: 1.5px solid black;
     border-radius: 50%;
     cursor: pointer;
-    background-color: darkgray;
-    border:black;
+    background-color: #62b2f3;
+}
+.fixedbutton:hover{
+    background-color:lightgreen;
 }
 footer{
         background-color: black;
